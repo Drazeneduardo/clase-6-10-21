@@ -100,16 +100,17 @@ h2 {
             }
         }
     }
-}
-li{
+    li{
     @include list;
     padding-top: 8%;
     margin-left: 3%;
-    &::before{
+    &::before {
     content: "\25BD" "\2615";
     margin-right: 2%;
     }
 }
+}
+
 
 
 

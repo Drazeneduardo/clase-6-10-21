@@ -73,7 +73,7 @@ h2 {
           transform: scale(1.2);
 }
 
-li {
+.asideSection li {
   color: silver;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -84,7 +84,7 @@ li {
   margin-left: 3%;
 }
 
-li::before {
+.asideSection li::before {
   content: "\25BD" "\2615";
   margin-right: 2%;
 }
