@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    background-color: chocolate;
+    min-height: 100vh;
+}
+
+.caja{
+    background-color: coral;
+    width: min(300px, 25%);
+}
+.cajita{
+    background-color: burlywood;
+    width: max(300px, 25%);
+}
+.cajon{
+    background-color: azure;
+    width: max(300px, 60% -25px );
+}
